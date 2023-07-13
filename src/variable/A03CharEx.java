@@ -1,5 +1,7 @@
 package variable;
 
+import util.Util;
+
 public class A03CharEx {
     public static void main(String[] args) {
         char c1 = 'a'; //97
@@ -12,5 +14,6 @@ public class A03CharEx {
         System.out.println((int)c3);
 
         System.out.println((char)(c1 + c2));
+        Util.typeof(c1 + c2);
     }
 }
