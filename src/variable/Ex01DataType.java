@@ -1,6 +1,6 @@
 package variable;
 
-public class A01DataType {
+public class Ex01DataType {
     public static void main(String[] args) {
 
         Car car = new Car();

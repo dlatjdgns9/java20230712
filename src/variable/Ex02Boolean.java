@@ -1,6 +1,6 @@
 package variable;
 
-public class A02DataTypeEx {
+public class Ex02Boolean {
     public static void main(String[] args) {
         Tv tv = new Tv(); // Tv객체 인스턴스 생성
         System.out.println(tv.power);

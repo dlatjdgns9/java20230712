@@ -2,7 +2,7 @@ package variable;
 
 import util.Util;
 
-public class A04FloatDoubleEx {
+public class Ex04FloatDouble {
     public static void main(String[] args) {
         float f1 = 0.0123456789f;
         float f2 = 0.1f;
