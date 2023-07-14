@@ -1,4 +1,4 @@
-package variable;
+package pkg01variable;
 
 public class Ex01DataType {
     public static void main(String[] args) {

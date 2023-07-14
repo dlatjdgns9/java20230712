@@ -1,4 +1,4 @@
-package variable;
+package pkg01variable;
 
 import javax.swing.*;
 

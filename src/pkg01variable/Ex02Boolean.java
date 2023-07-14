@@ -1,4 +1,4 @@
-package variable;
+package pkg01variable;
 
 public class Ex02Boolean {
     public static void main(String[] args) {

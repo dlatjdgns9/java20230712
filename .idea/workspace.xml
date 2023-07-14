@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="DataTypeEx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/A01DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Ex01DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/A02DataTypeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Ex02Boolean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/A03CharEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Ex03Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/A04FloatDoubleEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/Ex04FloatDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex01DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex01DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex02Boolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex02Boolean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex03Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex03Char.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex04FloatDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex04FloatDouble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex05IntLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex05IntLong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex06Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex06Final.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variable/Ex07Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex07Printf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +47,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex07Printf">
-    <configuration name="Ex03Char" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Ex03Char" />
+  <component name="RunManager" selected="Application.Ex09Switch">
+    <configuration name="Ex05BitOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex05BitOp" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="pkg02method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04FloatDouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Ex04FloatDouble" />
+    <configuration name="Ex06IncrementOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex06IncrementOp" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="pkg02method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05IntLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Ex05IntLong" />
+    <configuration name="Ex07ElvisOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex07ElvisOp" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="pkg02method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Ex06Final" />
+    <configuration name="Ex08If" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex08If" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="pkg02method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07Printf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Ex07Printf" />
+    <configuration name="Ex09Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex09Switch" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="pkg02method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex07Printf" />
-        <item itemvalue="Application.Ex06Final" />
-        <item itemvalue="Application.Ex05IntLong" />
-        <item itemvalue="Application.Ex03Char" />
-        <item itemvalue="Application.Ex04FloatDouble" />
+        <item itemvalue="Application.Ex09Switch" />
+        <item itemvalue="Application.Ex08If" />
+        <item itemvalue="Application.Ex07ElvisOp" />
+        <item itemvalue="Application.Ex06IncrementOp" />
+        <item itemvalue="Application.Ex05BitOp" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689229087880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DataTypeEx">
+      <created>1689239271088</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689239271088</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
