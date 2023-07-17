@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="DataTypeEx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex01DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex01DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex02Boolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex02Boolean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex03Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex03Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex04FloatDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex04FloatDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex05IntLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex05IntLong.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex06Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex06Final.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/Ex07Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg01variable/Ex07Printf.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +33,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/workspace/java20230712",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ex09Switch">
-    <configuration name="Ex05BitOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex05BitOp" />
+}]]></component>
+  <component name="RunManager" selected="Application.Ex16InitializeBlock">
+    <configuration name="Ex10For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex10For" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -61,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06IncrementOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex06IncrementOp" />
+    <configuration name="Ex11While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex11While" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07ElvisOp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex07ElvisOp" />
+    <configuration name="Ex14OveLoading (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex14OveLoading" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex08If" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex08If" />
+    <configuration name="Ex14OveLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex14OveLoading" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex09Switch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex09Switch" />
+    <configuration name="Ex16InitializeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex16InitializeBlock" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex09Switch" />
-        <item itemvalue="Application.Ex08If" />
-        <item itemvalue="Application.Ex07ElvisOp" />
-        <item itemvalue="Application.Ex06IncrementOp" />
-        <item itemvalue="Application.Ex05BitOp" />
+        <item itemvalue="Application.Ex16InitializeBlock" />
+        <item itemvalue="Application.Ex14OveLoading (1)" />
+        <item itemvalue="Application.Ex14OveLoading" />
+        <item itemvalue="Application.Ex11While" />
+        <item itemvalue="Application.Ex10For" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689239271088</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DataTypeEx">
+      <created>1689326401467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689326401467</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
