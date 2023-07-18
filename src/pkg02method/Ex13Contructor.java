@@ -2,7 +2,7 @@ package pkg02method;
 
 public class Ex13Contructor {
     public static void main(String[] args) {
-        Employee employee = new Employee(1,"ISH","20230101", "01023127053", "19990818");
+        Employee employee = new Employee(1,"ISH","20230101", "01011112222", "19990818");
         Employee[] employees = new Employee[3];
         employees[0] = employee;
 
@@ -14,9 +14,11 @@ public class Ex13Contructor {
 
 class Employee {
     public Employee() {
-
+        //this()는 자신이 속한 생성자를 가리킬 때
+        this(0,"홍길동","20230101","01011112222","19990818");
     }
     public Employee(int eno, String name, String hireDate, String mobile, String birth) {
+        //this.xxx 자신이 속한 클래스의 멤버변수를 가리킬 떄
         this.eno = eno;
         this.name = name;
         this.hireDate = hireDate;

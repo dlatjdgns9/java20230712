@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="DataTypeEx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg02method/Ex13Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg02method/Ex13Contructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/workspace/java20230712",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/java20230712&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Ex16InitializeBlock">
-    <configuration name="Ex10For" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex10For" />
+}</component>
+  <component name="RunManager" selected="Application.Ex07ArrayEnhanceFor">
+    <configuration name="Ex03Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex03Lotto" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg02method.*" />
+          <option name="PATTERN" value="pkg03array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +56,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex11While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex11While" />
+    <configuration name="Ex04MainArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex04MainArgs" />
       <module name="java20230712" />
+      <option name="PROGRAM_PARAMETERS" value="1 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg02method.*" />
+          <option name="PATTERN" value="pkg03array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex14OveLoading (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex14OveLoading" />
+    <configuration name="Ex05TwoDimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex05TwoDimensional" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg02method.*" />
+          <option name="PATTERN" value="pkg03array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex14OveLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex14OveLoading" />
+    <configuration name="Ex06ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex06ArrayCopy" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg02method.*" />
+          <option name="PATTERN" value="pkg03array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex16InitializeBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg02method.Ex16InitializeBlock" />
+    <configuration name="Ex07ArrayEnhanceFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex07ArrayEnhanceFor" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg02method.*" />
+          <option name="PATTERN" value="pkg03array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +109,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Ex05TwoDimensional" />
+      <item itemvalue="Application.Ex06ArrayCopy" />
+      <item itemvalue="Application.Ex07ArrayEnhanceFor" />
+      <item itemvalue="Application.Ex03Lotto" />
+      <item itemvalue="Application.Ex04MainArgs" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex16InitializeBlock" />
-        <item itemvalue="Application.Ex14OveLoading (1)" />
-        <item itemvalue="Application.Ex14OveLoading" />
-        <item itemvalue="Application.Ex11While" />
-        <item itemvalue="Application.Ex10For" />
+        <item itemvalue="Application.Ex07ArrayEnhanceFor" />
+        <item itemvalue="Application.Ex06ArrayCopy" />
+        <item itemvalue="Application.Ex05TwoDimensional" />
+        <item itemvalue="Application.Ex04MainArgs" />
+        <item itemvalue="Application.Ex03Lotto" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689326401467</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DataTypeEx">
+      <created>1689585505693</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1689585505693</updated>
+    </task>
+    <task id="LOCAL-00010" summary="DataTypeEx">
+      <created>1689585515802</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689585515802</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
