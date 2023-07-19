@@ -7,7 +7,7 @@ public class Ex01ArrayDeclare {
 
         System.out.println(score.length);
         for (int i = 0; i < score.length; i++) {
-            score[i] = (int) (Math.random() * 50) + 1 + 50;
+            score[i] = (int) (java.lang.Math.random() * 50) + 1 + 50;
             System.out.println(score[i]);
         }
 

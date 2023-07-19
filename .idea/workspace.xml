@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="DataTypeEx">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg02method/Ex13Contructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg02method/Ex13Contructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg03array/Ex01ArrayDeclare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg03array/Ex01ArrayDeclare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg03array/Ex02ArrayShuffleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg03array/Ex02ArrayShuffleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg03array/Ex03Lotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg03array/Ex03Lotto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex07ArrayEnhanceFor">
-    <configuration name="Ex03Lotto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex03Lotto" />
+  <component name="RunManager" selected="Application.Ex05MethodOverriding">
+    <configuration name="Ex03Extends" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex03Extends" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg03array.*" />
+          <option name="PATTERN" value="pkg04class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,13 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04MainArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex04MainArgs" />
+    <configuration name="Ex05MethodOverriding (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05MethodOverriding" />
       <module name="java20230712" />
-      <option name="PROGRAM_PARAMETERS" value="1 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg03array.*" />
+          <option name="PATTERN" value="pkg04class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05TwoDimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex05TwoDimensional" />
+    <configuration name="Ex05MethodOverriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05MethodOverriding" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg03array.*" />
+          <option name="PATTERN" value="pkg04class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06ArrayCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex06ArrayCopy" />
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Exercise" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg03array.*" />
+          <option name="PATTERN" value="pkg04class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07ArrayEnhanceFor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg03array.Ex07ArrayEnhanceFor" />
+    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Exercise3" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg03array.*" />
+          <option name="PATTERN" value="pkg04class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex05TwoDimensional" />
-      <item itemvalue="Application.Ex06ArrayCopy" />
-      <item itemvalue="Application.Ex07ArrayEnhanceFor" />
-      <item itemvalue="Application.Ex03Lotto" />
-      <item itemvalue="Application.Ex04MainArgs" />
+      <item itemvalue="Application.Ex03Extends" />
+      <item itemvalue="Application.Ex05MethodOverriding" />
+      <item itemvalue="Application.Ex05MethodOverriding (1)" />
+      <item itemvalue="Application.Exercise" />
+      <item itemvalue="Application.Exercise3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex07ArrayEnhanceFor" />
-        <item itemvalue="Application.Ex06ArrayCopy" />
-        <item itemvalue="Application.Ex05TwoDimensional" />
-        <item itemvalue="Application.Ex04MainArgs" />
-        <item itemvalue="Application.Ex03Lotto" />
+        <item itemvalue="Application.Ex05MethodOverriding" />
+        <item itemvalue="Application.Ex05MethodOverriding (1)" />
+        <item itemvalue="Application.Ex03Extends" />
+        <item itemvalue="Application.Exercise3" />
+        <item itemvalue="Application.Exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689585515802</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DataTypeEx">
+      <created>1689672052967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689672052967</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

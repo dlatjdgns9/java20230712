@@ -25,7 +25,7 @@ public class Ex02ArrayShuffleSort {
 
     static void shuffle(int[] a) {
         for (int i = 0; i < a.length; i++) {
-            int rand = (int)(Math.random()*10);
+            int rand = (int)(java.lang.Math.random()*10);
             int tmp = a[i];
             a[i] = a[rand];
             a[rand] = tmp;

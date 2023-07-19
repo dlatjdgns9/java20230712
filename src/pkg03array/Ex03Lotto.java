@@ -7,7 +7,7 @@ public class Ex03Lotto {
         int[] lotto = new int[6];
         int Idx = 0;
         while (true) {
-            int ball = (int)(Math.random() * 45) +1;
+            int ball = (int)(java.lang.Math.random() * 45) +1;
             boolean insert = true;
 
             for (int i = 0; i < lotto.length; i++) {
