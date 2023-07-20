@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="CastingSample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex03Extends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex03Extends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex05CastingSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex05CastingSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex05MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex06MethodOverriding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex05CastingSample (5)">
-    <configuration name="Ex05CastingSample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05CastingSample" />
+  <component name="RunManager" selected="Application.Ex09AbstractSample (2)">
+    <configuration name="Ex07Interface (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex07Interface" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05CastingSample (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05CastingSample" />
+    <configuration name="Ex08Interface_default_static" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex08Interface_default_static" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05CastingSample (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05CastingSample" />
+    <configuration name="Ex09AbstractSample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex09AbstractSample" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05CastingSample (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05CastingSample" />
+    <configuration name="Ex09AbstractSample (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex09AbstractSample" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex05CastingSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex05CastingSample" />
+    <configuration name="Ex09AbstractSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex09AbstractSample" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
@@ -108,19 +112,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex05CastingSample" />
-      <item itemvalue="Application.Ex05CastingSample (2)" />
-      <item itemvalue="Application.Ex05CastingSample (3)" />
-      <item itemvalue="Application.Ex05CastingSample (4)" />
-      <item itemvalue="Application.Ex05CastingSample (5)" />
+      <item itemvalue="Application.Ex07Interface (1)" />
+      <item itemvalue="Application.Ex08Interface_default_static" />
+      <item itemvalue="Application.Ex09AbstractSample" />
+      <item itemvalue="Application.Ex09AbstractSample (1)" />
+      <item itemvalue="Application.Ex09AbstractSample (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex05CastingSample (5)" />
-        <item itemvalue="Application.Ex05CastingSample" />
-        <item itemvalue="Application.Ex05CastingSample (4)" />
-        <item itemvalue="Application.Ex05CastingSample (3)" />
-        <item itemvalue="Application.Ex05CastingSample (2)" />
+        <item itemvalue="Application.Ex09AbstractSample (2)" />
+        <item itemvalue="Application.Ex09AbstractSample (1)" />
+        <item itemvalue="Application.Ex09AbstractSample" />
+        <item itemvalue="Application.Ex08Interface_default_static" />
+        <item itemvalue="Application.Ex07Interface (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689758285566</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="CastingSample">
+      <created>1689822591666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689822591666</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="DataTypeEx" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataTypeEx" />
+    <MESSAGE value="CastingSample" />
+    <option name="LAST_COMMIT_MESSAGE" value="CastingSample" />
   </component>
 </project>

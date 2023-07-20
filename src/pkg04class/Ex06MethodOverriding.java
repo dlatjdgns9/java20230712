@@ -2,7 +2,7 @@ package pkg04class;
 
 import java.util.Objects;
 
-public class Ex05MethodOverriding {
+public class Ex06MethodOverriding {
     public static void main(String[] args) {
         Data d1 = new Data(1);
         Data d2 = new Data(1);

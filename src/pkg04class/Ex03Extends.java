@@ -24,6 +24,8 @@ public class Ex03Extends {
         System.out.println(d1 instanceof Unit);
 
         System.out.println(d1 instanceof Object);
+        //Unit unit = new Unit();
+        //추상클래스는 인스턴스 생성불가, 상속받은 후 사용 가능
     }
 }
 
