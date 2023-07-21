@@ -1,6 +1,7 @@
 package pkg02method;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -18,9 +19,15 @@ public class Ex11While {
         System.out.println(rand);
 
 
-       /* int count=1;
+        int count=1;
         while (true) {
-            int input = Integer.parseInt(JOptionPane.showInputDialog("숫자를 입력하세요 : "));
+            int input = 0;
+            try {
+                input = Integer.parseInt(JOptionPane.showInputDialog("숫자를 입력하세요 : "));
+            } catch (Exception e) {
+                System.out.println("숫자가 아닙니다. 다시 입력 바랍니다.");
+                continue;
+            }
 
             if (input > rand) {
                 System.out.println("작다");
@@ -32,7 +39,7 @@ public class Ex11While {
                 System.out.println(count + "번만에 맞추셨습니다.");
                 break;
             }
-        }*/
+        }
 
 
         /*//가위바위보 게임
@@ -70,7 +77,7 @@ public class Ex11While {
             }
         }*/
 
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         do{
             System.out.println("메뉴를 선택하세요 : ");
             System.out.println("1) 회원등록");
@@ -82,6 +89,6 @@ public class Ex11While {
                 break;
             }
         }while(true);
-
+*/
     }
 }
