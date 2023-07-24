@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="CastingSample">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Math">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex02HasA_IsA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex02HasA_IsA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg05JavaLang/Ex01Object.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg05JavaLang/Ex01Object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex06MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex06MethodOverriding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +39,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/workspace/java20230712&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex02Math">
-    <configuration name="Ex01Object (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg05JavaLang.Ex01Object" />
+  <component name="RunManager" selected="Application.Ex0724Test (5)">
+    <configuration name="Ex0724Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg05JavaLang.*" />
+          <option name="PATTERN" value="Test0724.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex01Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg05JavaLang.Ex01Object" />
+    <configuration name="Ex0724Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg05JavaLang.*" />
+          <option name="PATTERN" value="Test0724.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex02HasA_IsA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex02HasA_IsA" />
+    <configuration name="Ex0724Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg04class.*" />
+          <option name="PATTERN" value="Test0724.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex02Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg05JavaLang.Ex02Math" />
+    <configuration name="Ex0724Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg05JavaLang.*" />
+          <option name="PATTERN" value="Test0724.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex12TryCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg04class.Ex12TryCatch" />
+    <configuration name="Ex0724Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg04class.*" />
+          <option name="PATTERN" value="Test0724.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +109,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex02HasA_IsA" />
-      <item itemvalue="Application.Ex02Math" />
-      <item itemvalue="Application.Ex01Object" />
-      <item itemvalue="Application.Ex01Object (1)" />
-      <item itemvalue="Application.Ex12TryCatch" />
+      <item itemvalue="Application.Ex0724Test (4)" />
+      <item itemvalue="Application.Ex0724Test (5)" />
+      <item itemvalue="Application.Ex0724Test (1)" />
+      <item itemvalue="Application.Ex0724Test (2)" />
+      <item itemvalue="Application.Ex0724Test (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex02Math" />
-        <item itemvalue="Application.Ex02HasA_IsA" />
-        <item itemvalue="Application.Ex01Object (1)" />
-        <item itemvalue="Application.Ex01Object" />
-        <item itemvalue="Application.Ex12TryCatch" />
+        <item itemvalue="Application.Ex0724Test (5)" />
+        <item itemvalue="Application.Ex0724Test (4)" />
+        <item itemvalue="Application.Ex0724Test (3)" />
+        <item itemvalue="Application.Ex0724Test (2)" />
+        <item itemvalue="Application.Ex0724Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689932087652</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Math">
+      <created>1690163888736</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1690163888736</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +264,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="DataTypeEx" />
     <MESSAGE value="CastingSample" />
-    <option name="LAST_COMMIT_MESSAGE" value="CastingSample" />
+    <MESSAGE value="Math" />
+    <option name="LAST_COMMIT_MESSAGE" value="Math" />
   </component>
 </project>

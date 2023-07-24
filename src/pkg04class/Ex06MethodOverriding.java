@@ -26,10 +26,10 @@ class Data {
         this.value = value;
     }
 
-    /*@Override
+    @Override
     public String toString() {
-        return String.valueOf(value);
-    }*/
+        return String.valueOf(value); // value를 문자열로 리턴
+    }
 
     //클래스의 인스턴스를 비교해서 동일화시킬 경우
     //hashCode()와 equals()를 재정의 해줘야 한다.
