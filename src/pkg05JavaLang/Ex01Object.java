@@ -14,7 +14,7 @@ public class Ex01Object {
         //재정의하기전
         //System.out.println(myObject.toString());  //재정의 하기전에 .toString()메서드를 사용하면 myObject 주소값이 출력됨
 
-        //toString을 재정의하면 myObject.toString()의 .toString()을 생략해도 컴파일러가 자동으로 붙여준다.
+        //toString을 재정의하면 myObject.toString()의 .toString()을 생략해도 컴파일러가 자동으로 붙여주기 때문에
         System.out.println(myObject); //toString을 재정의하고 객체myObject를 출력(sout)하면 주소값이 아닌 인스턴스의 값을 출력
 
 
