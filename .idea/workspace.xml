@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Math">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Class conjugation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex06MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex06MethodOverriding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test0724/Ex0724Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test0724/Ex0724Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -42,13 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex0724Test (5)">
-    <configuration name="Ex0724Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
+  <component name="RunManager" selected="Application.Ex02TimePackage">
+    <configuration name="Ex01DateCalender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg07Time.Ex01DateCalender" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test0724.*" />
+          <option name="PATTERN" value="pkg07Time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex0724Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
+    <configuration name="Ex02TimePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg07Time.Ex02TimePackage" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test0724.*" />
+          <option name="PATTERN" value="pkg07Time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex0724Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
+    <configuration name="Ex11Collections (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test0724.*" />
+          <option name="PATTERN" value="pkg06Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex0724Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
+    <configuration name="Ex11Collections (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test0724.*" />
+          <option name="PATTERN" value="pkg06Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex0724Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test0724.Ex0724Test" />
+    <configuration name="Ex11Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test0724.*" />
+          <option name="PATTERN" value="pkg06Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,19 +111,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex0724Test (4)" />
-      <item itemvalue="Application.Ex0724Test (5)" />
-      <item itemvalue="Application.Ex0724Test (1)" />
-      <item itemvalue="Application.Ex0724Test (2)" />
-      <item itemvalue="Application.Ex0724Test (3)" />
+      <item itemvalue="Application.Ex01DateCalender" />
+      <item itemvalue="Application.Ex02TimePackage" />
+      <item itemvalue="Application.Ex11Collections" />
+      <item itemvalue="Application.Ex11Collections (3)" />
+      <item itemvalue="Application.Ex11Collections (4)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex0724Test (5)" />
-        <item itemvalue="Application.Ex0724Test (4)" />
-        <item itemvalue="Application.Ex0724Test (3)" />
-        <item itemvalue="Application.Ex0724Test (2)" />
-        <item itemvalue="Application.Ex0724Test (1)" />
+        <item itemvalue="Application.Ex02TimePackage" />
+        <item itemvalue="Application.Ex01DateCalender" />
+        <item itemvalue="Application.Ex11Collections" />
+        <item itemvalue="Application.Ex11Collections (4)" />
+        <item itemvalue="Application.Ex11Collections (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690163888736</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Class conjugation">
+      <created>1690190845556</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1690190845556</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +274,7 @@
     <MESSAGE value="DataTypeEx" />
     <MESSAGE value="CastingSample" />
     <MESSAGE value="Math" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math" />
+    <MESSAGE value="Class conjugation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class conjugation" />
   </component>
 </project>

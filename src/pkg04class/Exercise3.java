@@ -12,15 +12,11 @@ public class Exercise3 {
             System.out.println("User Input : " + userParm);
 
 
-            if (userParm.equals("1") && comParm == 1) {
+            if ((userParm.equals("1") && comParm == 1)||(userParm.equals("2") && comParm ==2)) {
                 System.out.println("승리!");
-            } else if (userParm.equals("1") && comParm ==2){
+            } else if ((userParm.equals("1") && comParm ==2)||(userParm.equals("2") && comParm ==1)){
                 System.out.println("패배");
-            } else if (userParm.equals("2") && comParm ==1) {
-                System.out.println("패배");
-            } else if (userParm.equals("2") && comParm ==2) {
-                System.out.println("승리");
-            }else if (userParm.equals("q") || userParm.equals("Q")) {
+            } else if (userParm.equals("q") || userParm.equals("Q")) {
                 System.out.println("게임을 종료합니다.");
                 break;
             } else if (!userParm.equals("1") && !userParm.equals("2") && !userParm.equals("q") && !userParm.equals("Q")) {

@@ -1,6 +1,7 @@
 package Test0724;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Ex0724Test {
@@ -14,13 +15,11 @@ class MemberManager {
     private boolean isStop;
     private Scanner scan;
     private ArrayList<Member> list;
-    int idx;
 
     public MemberManager() {
         isStop = false;
         scan = new Scanner(System.in);
         list = new ArrayList<>();
-        idx = -1;
     }
 
     public void start() {
@@ -111,6 +110,10 @@ class MemberManager {
             Member mem = list.get(i);
             System.out.printf("%d번 회원(이름: %s, ID: %s, PW: %s, Mobile: %s)%n", i+1, mem.getName(), mem.getId(), mem.getPw(), mem.getMobile());
         }
+        Iterator<Member> it = list.iterator();
+        while (it.hasNext()) {
+            Member member = it.next();
+        }
     }
 
     private void modifyMember() {
@@ -151,7 +154,6 @@ class MemberManager {
                             break;
                     }
                 }
-
             }
         }
 
