@@ -76,7 +76,7 @@ class NotePad extends JFrame implements ActionListener {
         } else if (e.getSource() == miSave) {
             fileSave();
         } else if (e.getSource() == miInfo) {
-
+            new InfoDialog(this, true);
         } else if (e.getSource() == miExit) {
             dispose();
         }
@@ -125,11 +125,27 @@ class NotePad extends JFrame implements ActionListener {
 
 
     private void inflate() {
-        setTitle("데쓰노트");
+        setTitle("메모장");
         setSize(500, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(this);
         setVisible(true);
     }
 
+}
+
+
+class InfoDialog extends JDialog {
+    public InfoDialog(JFrame fr, boolean modal) {
+        super(fr,modal);
+        JPanel pnl = new JPanel();
+        JLabel lb = new JLabel("Author: ISH");
+        pnl.add(lb);
+        add(pnl, "Center");
+
+        setTitle("Version 0.1 ");
+        setSize(200, 100);
+        setLocationRelativeTo(this);
+        setVisible(true);
+    }
 }
