@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="stream">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg08IO/Ex07NotePad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg08IO/Ex07NotePad.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex07NotePad (4)">
-    <configuration name="Ex07NotePad (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
+  <component name="RunManager" selected="Application.Ex03GenericKV (1)">
+    <configuration name="Ex02GenericType (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg09Generics.Ex02GenericType" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg08IO.*" />
+          <option name="PATTERN" value="pkg09Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07NotePad (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
+    <configuration name="Ex02GenericType (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg09Generics.Ex02GenericType" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg08IO.*" />
+          <option name="PATTERN" value="pkg09Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07NotePad (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
+    <configuration name="Ex02GenericType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg09Generics.Ex02GenericType" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg08IO.*" />
+          <option name="PATTERN" value="pkg09Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07NotePad (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
+    <configuration name="Ex03GenericKV (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg09Generics.Ex03GenericKV" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg08IO.*" />
+          <option name="PATTERN" value="pkg09Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07NotePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
+    <configuration name="Ex03GenericKV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg09Generics.Ex03GenericKV" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg08IO.*" />
+          <option name="PATTERN" value="pkg09Generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +109,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex07NotePad" />
-      <item itemvalue="Application.Ex07NotePad (1)" />
-      <item itemvalue="Application.Ex07NotePad (2)" />
-      <item itemvalue="Application.Ex07NotePad (3)" />
-      <item itemvalue="Application.Ex07NotePad (4)" />
+      <item itemvalue="Application.Ex02GenericType" />
+      <item itemvalue="Application.Ex02GenericType (1)" />
+      <item itemvalue="Application.Ex02GenericType (2)" />
+      <item itemvalue="Application.Ex03GenericKV" />
+      <item itemvalue="Application.Ex03GenericKV (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex07NotePad (4)" />
-        <item itemvalue="Application.Ex07NotePad (3)" />
-        <item itemvalue="Application.Ex07NotePad (2)" />
-        <item itemvalue="Application.Ex07NotePad (1)" />
-        <item itemvalue="Application.Ex07NotePad" />
+        <item itemvalue="Application.Ex03GenericKV (1)" />
+        <item itemvalue="Application.Ex03GenericKV" />
+        <item itemvalue="Application.Ex02GenericType (2)" />
+        <item itemvalue="Application.Ex02GenericType (1)" />
+        <item itemvalue="Application.Ex02GenericType" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690358457638</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="stream">
+      <created>1690359512877</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1690359512877</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
