@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Class conjugation">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Collection">
+      <change afterPath="$PROJECT_DIR$/src/pkg07Time/Ex03TimePackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test0724/Ex0724Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test0724/Ex0724Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Exercise3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg07Time/Ex01DateCalender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg07Time/Ex01DateCalender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg07Time/Ex02TimePackage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +45,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex02TimePackage">
-    <configuration name="Ex01DateCalender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg07Time.Ex01DateCalender" />
+  <component name="RunManager" selected="Application.Ex07NotePad">
+    <configuration name="Ex07NotePad (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg07Time.*" />
+          <option name="PATTERN" value="pkg08IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex02TimePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg07Time.Ex02TimePackage" />
+    <configuration name="Ex07NotePad (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg07Time.*" />
+          <option name="PATTERN" value="pkg08IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex11Collections (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
+    <configuration name="Ex07NotePad (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg06Collection.*" />
+          <option name="PATTERN" value="pkg08IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex11Collections (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
+    <configuration name="Ex07NotePad (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg06Collection.*" />
+          <option name="PATTERN" value="pkg08IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex11Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg06Collection.Ex11Collections" />
+    <configuration name="Ex07NotePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg08IO.Ex07NotePad" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg06Collection.*" />
+          <option name="PATTERN" value="pkg08IO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +112,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex01DateCalender" />
-      <item itemvalue="Application.Ex02TimePackage" />
-      <item itemvalue="Application.Ex11Collections" />
-      <item itemvalue="Application.Ex11Collections (3)" />
-      <item itemvalue="Application.Ex11Collections (4)" />
+      <item itemvalue="Application.Ex07NotePad" />
+      <item itemvalue="Application.Ex07NotePad (2)" />
+      <item itemvalue="Application.Ex07NotePad (3)" />
+      <item itemvalue="Application.Ex07NotePad (4)" />
+      <item itemvalue="Application.Ex07NotePad (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex02TimePackage" />
-        <item itemvalue="Application.Ex01DateCalender" />
-        <item itemvalue="Application.Ex11Collections" />
-        <item itemvalue="Application.Ex11Collections (4)" />
-        <item itemvalue="Application.Ex11Collections (3)" />
+        <item itemvalue="Application.Ex07NotePad" />
+        <item itemvalue="Application.Ex07NotePad (5)" />
+        <item itemvalue="Application.Ex07NotePad (4)" />
+        <item itemvalue="Application.Ex07NotePad (3)" />
+        <item itemvalue="Application.Ex07NotePad (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690190845556</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Collection">
+      <created>1690276846712</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690276846712</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +283,7 @@
     <MESSAGE value="CastingSample" />
     <MESSAGE value="Math" />
     <MESSAGE value="Class conjugation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class conjugation" />
+    <MESSAGE value="Collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Collection" />
   </component>
 </project>
