@@ -15,7 +15,7 @@ public class Ex05Casting {
         father2.hard();
         System.out.println(father2.age);
 
-        // 1) 상속관계일때 형 변환 발생시 자 -> 부 일경우 부모 인스턴스는 자식만의 속성과 기능을 사용 불가
+        // 1) 상속관계일때 형 변환 발생시 자 -> 부 일 경우 부모 인스턴스는 자식만의 속성과 기능을 사용 불가
         //father2.computer();
         //System.out.println(father2.license);
 
