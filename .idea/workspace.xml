@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Generic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg04class/Ex05Casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg04class/Ex05Casting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg09Generics/Ex04GenericSuperExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg09Generics/Ex04GenericSuperExtends.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex01lambda">
+  <component name="RunManager" selected="Application.Ex01Stream">
+    <configuration name="Ex01Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg12Stream.Ex01Stream" />
+      <module name="java20230712" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pkg12Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex01lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pkg11lambda.Ex01lambda" />
       <module name="java20230712" />
@@ -58,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06JoinYield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg10Thread.Ex06JoinYield" />
+    <configuration name="Ex02FunctionPackage (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg11lambda.Ex02FunctionPackage" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg10Thread.*" />
+          <option name="PATTERN" value="pkg11lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex06Yield" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg10Thread.Ex06Yield" />
+    <configuration name="Ex02FunctionPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg11lambda.Ex02FunctionPackage" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg10Thread.*" />
+          <option name="PATTERN" value="pkg11lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,25 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex07Sychronized (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg10Thread.Ex07Sychronized" />
+    <configuration name="Ex03Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg11lambda.Ex03Predicate" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pkg10Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex07Sychronized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg10Thread.Ex07Sychronized" />
-      <module name="java20230712" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pkg10Thread.*" />
+          <option name="PATTERN" value="pkg11lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,19 +109,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Ex01Stream" />
       <item itemvalue="Application.Ex01lambda" />
-      <item itemvalue="Application.Ex06JoinYield" />
-      <item itemvalue="Application.Ex06Yield" />
-      <item itemvalue="Application.Ex07Sychronized" />
-      <item itemvalue="Application.Ex07Sychronized (1)" />
+      <item itemvalue="Application.Ex02FunctionPackage (1)" />
+      <item itemvalue="Application.Ex02FunctionPackage" />
+      <item itemvalue="Application.Ex03Predicate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex01Stream" />
+        <item itemvalue="Application.Ex03Predicate" />
+        <item itemvalue="Application.Ex02FunctionPackage" />
+        <item itemvalue="Application.Ex02FunctionPackage (1)" />
         <item itemvalue="Application.Ex01lambda" />
-        <item itemvalue="Application.Ex07Sychronized (1)" />
-        <item itemvalue="Application.Ex07Sychronized" />
-        <item itemvalue="Application.Ex06Yield" />
-        <item itemvalue="Application.Ex06JoinYield" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690363382388</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Generic">
+      <created>1690449586257</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690449586257</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
