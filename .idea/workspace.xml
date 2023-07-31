@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Generic">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Lambda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,26 +42,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex01Stream">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ex01Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pkg12Stream.Ex01Stream" />
       <module name="java20230712" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pkg12Stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex01lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pkg11lambda.Ex01lambda" />
-      <module name="java20230712" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pkg11lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,20 +95,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pkg13Database.Main" />
+      <module name="java20230712" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pkg13Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Ex01Stream" />
-      <item itemvalue="Application.Ex01lambda" />
-      <item itemvalue="Application.Ex02FunctionPackage (1)" />
       <item itemvalue="Application.Ex02FunctionPackage" />
+      <item itemvalue="Application.Ex02FunctionPackage (1)" />
       <item itemvalue="Application.Ex03Predicate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex01Stream" />
         <item itemvalue="Application.Ex03Predicate" />
         <item itemvalue="Application.Ex02FunctionPackage" />
         <item itemvalue="Application.Ex02FunctionPackage (1)" />
-        <item itemvalue="Application.Ex01lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690449586257</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Lambda">
+      <created>1690536199026</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1690536199026</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Lambda">
+      <created>1690536208296</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690536208296</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +325,7 @@
     <MESSAGE value="Collection" />
     <MESSAGE value="stream" />
     <MESSAGE value="Generic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic" />
+    <MESSAGE value="Lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
   </component>
 </project>
