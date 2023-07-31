@@ -9,11 +9,11 @@ public abstract class BasicFrm extends JFrame {
         super(title); //JFrame에서 title이 선언되있어서 super(title)가능
         this.width = width;
         this.height = height;
-        init(); arragne();  infalte();
+        init(); arrange();  infalte();
     }
 
     public abstract void init();
-    public abstract void arragne();
+    public abstract void arrange();
 
     public void infalte(){
         setSize(width, height);

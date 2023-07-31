@@ -26,7 +26,7 @@ public class LoginFrm extends BasicFrm {
     }
 
     @Override
-    public void arragne() {
+    public void arrange() {
         pnlNorth.add(tfId);
         pnlCenter.add(pfPw);
         pnlSouth.add(btnLogin);
