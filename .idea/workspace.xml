@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Lambda">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="LoginFrm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pkg13Database.ui" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Ex01Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pkg12Stream.Ex01Stream" />
@@ -302,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690536208296</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Lambda">
+      <created>1690783005610</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690783005610</updated>
+    </task>
+    <task id="LOCAL-00026" summary="LoginFrm">
+      <created>1690783181188</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690783181188</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +347,7 @@
     <MESSAGE value="stream" />
     <MESSAGE value="Generic" />
     <MESSAGE value="Lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda" />
+    <MESSAGE value="LoginFrm" />
+    <option name="LAST_COMMIT_MESSAGE" value="LoginFrm" />
   </component>
 </project>
