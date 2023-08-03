@@ -1,13 +1,19 @@
 package pkg13Database.ui;
 
-import javax.swing.*;
+import pkg13Database.service.MembersService;
+import pkg13Database.vo.Members;
 
-public class LoginFrm extends BasicFrm {
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class LoginFrm extends BasicFrm implements ActionListener {
     private JTextField tfId;
     private JPasswordField pfPw;
 
     private JButton btnLogin,btnJoin,btnCancel;
     private JPanel pnlNorth, pnlCenter, pnlSouth;
+    private MembersService membersService;
 
     public LoginFrm() {
         super("로그인", 300, 150);
@@ -23,6 +29,14 @@ public class LoginFrm extends BasicFrm {
         pnlNorth = new JPanel();
         pnlSouth = new JPanel();
         pnlCenter = new JPanel();
+        btnLogin.addActionListener(this);
+        btnCancel.addActionListener(this);
+        btnJoin.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == btnLogin )
+            membersService.login(tfId.getText(), new String(pfPw.getPassword()));
     }
 
     @Override

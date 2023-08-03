@@ -6,7 +6,7 @@ public class DBConnectionTest {
     public static void main(String[] args) {
         DaoSet dao = new DaoSet();
         try {
-            dao.conn();
+            dao.dbConnect();
             System.out.println("MariaDB Connection Succeded!");
         } catch (SQLException e) {
             System.out.println("MariaDB Connection Failed!");
