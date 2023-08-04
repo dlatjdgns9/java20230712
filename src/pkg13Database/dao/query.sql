@@ -1,0 +1,14 @@
+CREATE TABLE db7.members(
+	mno INT NOT NULL AUTO_INCREMENT,
+	id VARCHAR(20) NOT NULL UNIQUE,
+	pw VARCHAR(20) NOT NULL,
+	sname VARCHAR(20) NOT NULL,
+	mobile VARCHAR(13),
+	email VARCHAR(40),
+	regdate DATE,
+	birthdate DATE,
+	PRIMARY KEY(mno),
+	CONSTRAINT uq_id UNIQUE(id)
+);
+
+SELECT NOW() AS today;

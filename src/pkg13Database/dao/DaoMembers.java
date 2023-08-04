@@ -5,8 +5,8 @@ import pkg13Database.vo.Members;
 import java.sql.SQLException;
 
 public class DaoMembers extends DaoSet{
-    public Members loginCheck(String id, String pw) {
-        Members members =null;
+    public Members loginCheck(String id, String pw){
+        Members members = null;
         try {
             conn = dbConnect();
             String sql = "select * from members where id=? and pass=? ";
@@ -15,14 +15,18 @@ public class DaoMembers extends DaoSet{
             pstmt.setString(2, pw);
             rs = pstmt.executeQuery();
             if (rs.next()) {
-                members = new Members(rs.getLong("mno"), rs.getString("id"), rs.getString("name")
-                , rs.getString("mobile"), rs.getString("email"), rs.getDate("regDate").toLocalDate(), rs.getDate("birthDate").toLocalDate());
+                members = new Members(rs.getLong("mno"), rs.getString("id"), rs.getString("sname")
+                        , rs.getString("mobile"), rs.getString("email")
+                        , rs.getDate("regdate").toLocalDate(), rs.getDate("birthdate").toLocalDate()
+                );
             }
-        } catch (SQLException e) {e.printStackTrace(); }
-        finally {
-            closeDB();
-        }
+        } catch (SQLException e) {e.printStackTrace();
+        } finally {closeDB();}
+        return members;
+    }
+    public boolean registMembers(Members members) {
+        boolean result = false;
 
-     return members;
+        return result;
     }
 }

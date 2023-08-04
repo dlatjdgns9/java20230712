@@ -5,7 +5,7 @@ import pkg13Database.ui.LoginFrm;
 
 public class Main {
     public static void main(String[] args) {
-       MainController.getInstance().getControll("");
+       MainController.getInstance().getControll("", null);
 
     }
 }
