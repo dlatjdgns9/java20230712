@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="service">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="db">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/dao/DaoSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/BasicFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/BasicFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/LoginFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/LoginFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DBConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/query.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/BasicFrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/LoginFrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,10 +130,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.DBConnectionTest" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Ex01Stream" />
       <item itemvalue="Application.Ex02FunctionPackage" />
       <item itemvalue="Application.Ex03Predicate" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -355,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691042173245</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="db">
+      <created>1691134241027</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1691134241027</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,7 +392,8 @@
     <MESSAGE value="MainController" />
     <MESSAGE value="DBconnection" />
     <MESSAGE value="service" />
-    <option name="LAST_COMMIT_MESSAGE" value="service" />
+    <MESSAGE value="db" />
+    <option name="LAST_COMMIT_MESSAGE" value="db" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

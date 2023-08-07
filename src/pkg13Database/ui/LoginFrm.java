@@ -1,7 +1,6 @@
 package pkg13Database.ui;
 
 import pkg13Database.controller.MainController;
-import pkg13Database.service.MembersService;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -44,6 +43,7 @@ public class LoginFrm extends BasicFrm implements ActionListener {
             dispose();
         } else if (e.getSource() == btnJoin) {
             mc.getControll("Join", null);
+            dispose();
         }
     }
 
