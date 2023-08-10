@@ -36,6 +36,7 @@ public class JoinFrm extends BasicFrm {
     @Override
     public void init() {
         mainController = MainController.getInstance();
+        String emailPattern = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
         strings = new String[] {"ID", "Password", "RePassword","Name", "Mobile", "Email", "Birthday"};
         labels = new JLabel[7];
         pnlCenter = new JPanel(new GridLayout(7, 2));
@@ -48,6 +49,7 @@ public class JoinFrm extends BasicFrm {
         tfBirthday = new JTextField(10);tfBirthday.setText("2023-01-01");
         pfPass = new JPasswordField(10);pfRePass = new JPasswordField(10);
         btnJoin = new JButton("회원 가입 하기");btnCancel = new JButton("취소");
+
         btnJoin.addActionListener(e -> {
             String id = tfId.getText(); String pw1 = new String(pfPass.getPassword());
             String pw2 = new String(pfRePass.getPassword()); String sname = tfName.getText();
@@ -59,17 +61,42 @@ public class JoinFrm extends BasicFrm {
                 return;
             }
             // 유효성검사를 완성하세요!! 2023-01-01
+            //비밀번호와 비밀번호 확인란 비교
+            if (!pw1.equals(pw2)) {
+                JOptionPane.showMessageDialog(this, "비밀번호가 일치하지 않습니다");
+                pfPass.setText("");
+                pfRePass.setText("");
+                pfPass.requestFocus();
+                return;
+            }
 
+            //전화번호 유효성 검사
+            if (mobile.length() != 11 || !mobile.startsWith("010") || !mobile.matches("\\d+") ) {
+                JOptionPane.showMessageDialog(this, "휴대폰 번호를 확인하세요");
+                tfMobile.setText("");
+                tfMobile.requestFocus();
+                return;
+            }
+
+            // 이메일 유효성 검사
+            if (!email.matches(emailPattern)) {
+                JOptionPane.showMessageDialog(this, "유효하지 않은 이메일 주소입니다");
+                tfEmail.requestFocus();
+                return;
+            }
 
             LocalDate birth = LocalDate.of(
                     Integer.parseInt(birthday.substring(0,4))
                     , Integer.parseInt(birthday.substring(5,7))
                     , Integer.parseInt(birthday.substring(8)));
+
             HashMap map = new HashMap();
             map.put("members", new Members(id, pw1, sname, mobile, email, birth));
             dispose();
             mainController.getControll("JoinRegist", map);
         });
+
+
         btnCancel.addActionListener(e -> {
 
         });

@@ -47,7 +47,7 @@ public class MainListFrm extends BasicFrm {
                 return;
             }
             JOptionPane.showMessageDialog(null, tableModel.getValueAt(row, 0));
-            //회원을 수정하는 코드를 작성하여 추가하고 수정되었으면 JTable도 새로고침 되도록 한다.
+            // 회원을 수정하는 코드를 작성하여 추가하고 수정되었으면 JTable도 새로고침 되도록 한다.
         });
         btnDelete = new JButton("삭제");
         btnDelete.addActionListener(e->{

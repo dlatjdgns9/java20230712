@@ -36,7 +36,7 @@ public class MainController {
         } else if (request.equals("MainList")) {
             ArrayList<Members> list = membersService.getList();
             new MainListFrm(list);
-        } else if (request.equals("Login")) {
+        }  else if (request.equals("Login")) {
             new LoginFrm();
         } else if (request.equals("LoginCheck")) {
             String id = (String) map.get("id");
