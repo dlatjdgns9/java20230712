@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="validation">
+    <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="deleteMem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691668268690</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="deleteMem">
+      <created>1691735292478</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1691735292478</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +409,8 @@
     <MESSAGE value="db" />
     <MESSAGE value="modifyexercise-" />
     <MESSAGE value="validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="validation" />
+    <MESSAGE value="deleteMem" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleteMem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

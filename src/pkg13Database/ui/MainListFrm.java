@@ -6,6 +6,7 @@ import pkg13Database.vo.Members;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -19,6 +20,8 @@ public class MainListFrm extends BasicFrm {
 
     private MainController mainController;
 
+    private JTextField tfId, tfName, tfMobile, tfEmail, tfBirthday;
+    private JPasswordField pfPass;
     public MainListFrm(ArrayList<Members> list) {
         super("회원 목록", 900, 500);
         setTableModel(list);
@@ -44,16 +47,47 @@ public class MainListFrm extends BasicFrm {
         tableModel = new DefaultTableModel(
                 new String[]{"회원번호", "이름", "ID", "Mobile", "Email", "등록일", "생년월일"}, 0);
         pnlBtn = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+
+
+
         btnModify = new JButton("수정");
         btnModify.addActionListener(e->{
             int row = tbl.getSelectedRow();
+            int column = tbl.getSelectedColumn();
+
             if (row == -1) {
                 JOptionPane.showMessageDialog(null, "회원을 먼저 선택하세요");
                 return;
             }
-            JOptionPane.showMessageDialog(null, tableModel.getValueAt(row, 0));
+            //JOptionPane.showMessageDialog(null, tableModel.getValueAt(row, 0));
             // 회원을 수정하는 코드를 작성하여 추가하고 수정되었으면 JTable도 새로고침 되도록 한다.
+
+
+            if (row != -1 && column != -1) {
+                String oldID = (String) tableModel.getValueAt(row, 2);
+
+                String newName = JOptionPane.showInputDialog(null, "수정할 이름을 입력하세요:");
+                String newID = JOptionPane.showInputDialog(null, "수정할 ID를 입력하세요:");
+                String newMobile = JOptionPane.showInputDialog(null, "수정할 전화번호를 입력하세요:");
+                String newEmail = JOptionPane.showInputDialog(null, "수정할 이메일을 입력하세요:");
+                String newReg = JOptionPane.showInputDialog(null, "수정할 등록일을 입력하세요:");
+                String newBirth = JOptionPane.showInputDialog(null, "수정할 생년월일을 입력하세요:");
+
+                // newName, newID, newMobile, newEmail, newReg, newBirth
+                LocalDate Reg = LocalDate.parse(newReg);
+                LocalDate birth = LocalDate.parse(newBirth);
+
+                HashMap<String, Object> map = new HashMap<>();
+                map.put("members", new Members(oldID, newName, newID, newMobile, newEmail, Reg, birth));
+                dispose();
+                mainController.getControll("Modify", map);
+            }
+
+
         });
+
+
+
 
         btnDelete = new JButton("삭제");
         btnDelete.addActionListener(e->{
@@ -62,10 +96,11 @@ public class MainListFrm extends BasicFrm {
                 JOptionPane.showMessageDialog(null, "회원을 먼저 선택하세요");
                 return;
             }
-            // ui에서 지웠으면 Database에서도 같이 지워야 함.
 
+            // ui에서 지웠으면 Database에서도 같이 지워야 함.
             // 선택된 행의 데이터 가져오기
             String memberId = (String) tableModel.getValueAt(row, 2);
+
             HashMap map = new HashMap();
             map.put("id", memberId);
             mainController.getControll("DeleteMem", map);

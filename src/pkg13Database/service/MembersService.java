@@ -38,4 +38,14 @@ public class MembersService {
 
         return result;
     }
+
+    public boolean Modifymem(Members members) {
+        boolean result = false;
+        if (daoMembers.duplicateId(members)) {
+            result = true;
+        }else {
+            daoMembers.Modify(members);
+        }
+        return result;
+    }
 }

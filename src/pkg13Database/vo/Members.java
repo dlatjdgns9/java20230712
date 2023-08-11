@@ -3,11 +3,11 @@ package pkg13Database.vo;
 import java.time.LocalDate;
 
 public class Members {
-    private long mno;
-    private String id, pass, sname, mobile, email;
+    private Long mno;
+    private String id, pass, sname, mobile, email, oldID;
     private LocalDate regdate, birthdate;
 
-    public Members(long mno, String id, String sname, String mobile
+    public Members(Long mno, String id, String sname, String mobile
             , String email, LocalDate regdate, LocalDate birthdate) {
         this.mno = mno;
         this.id = id;
@@ -28,6 +28,17 @@ public class Members {
         this.birthdate = birthdate;
     }
 
+    public Members(String oldID, String id, String sname, String mobile
+            , String email, LocalDate regdate, LocalDate birthdate) {
+        this.oldID = oldID;
+        this.id = id;
+        this.sname = sname;
+        this.mobile = mobile;
+        this.email = email;
+        this.regdate = regdate;
+        this.birthdate = birthdate;
+    }
+
     public Long getMno() {return mno;}
     public String getId() {return id;}
     public String getPass(){return pass;}
@@ -36,4 +47,8 @@ public class Members {
     public String getEmail() {return email;}
     public LocalDate getRegdate() {return regdate;}
     public LocalDate getBirthdate() {return birthdate;}
+
+    public String getOldID() {
+        return oldID;
+    }
 }

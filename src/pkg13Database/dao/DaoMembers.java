@@ -31,7 +31,7 @@ public class DaoMembers extends DaoSet {
         return members;
     }
 
-    public boolean joinRegister(Members members) {
+    public void joinRegister(Members members) {
         boolean result = false;
         try {
             conn = dbConnect();
@@ -53,7 +53,7 @@ public class DaoMembers extends DaoSet {
         } finally {
             closeDB();
         }
-        return result;
+        //return result;
     }
 
     public boolean duplicateId(Members members) {
@@ -107,6 +107,7 @@ public class DaoMembers extends DaoSet {
             pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, id);
             int count = pstmt.executeUpdate();
+
             if (count > 0) {
                 result = true;
             }
@@ -120,5 +121,28 @@ public class DaoMembers extends DaoSet {
     }
 
 
+    public void Modify(Members members) {
+
+
+        try {
+            conn = dbConnect();
+            String sql = "UPDATE members SET sname=?, id=?, mobile=?, email=?, regdate=?, birthdate=? WHERE id = ?;";
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, members.getSname());
+            pstmt.setString(2, members.getId());
+            pstmt.setString(3, members.getMobile());
+            pstmt.setString(4, members.getEmail());
+            pstmt.setDate(5, Date.valueOf(members.getRegdate()));
+            pstmt.setDate(6, Date.valueOf(members.getBirthdate()));
+            pstmt.setString(7, members.getOldID());
+            pstmt.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeDB();
+        }
+
+    }
 
 }
