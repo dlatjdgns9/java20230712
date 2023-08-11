@@ -10,7 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalDate;
 import java.util.HashMap;
-
+import java.time.format.DateTimeParseException;
 public class JoinFrm extends BasicFrm {
     private JPanel pnlCenter, pnlSouth;
     private JTextField tfId, tfName, tfMobile, tfEmail, tfBirthday;
@@ -71,6 +71,7 @@ public class JoinFrm extends BasicFrm {
             }
 
             //전화번호 유효성 검사
+            //전화번호 중복 검사
             if (mobile.length() != 11 || !mobile.startsWith("010") || !mobile.matches("\\d+") ) {
                 JOptionPane.showMessageDialog(this, "휴대폰 번호를 확인하세요");
                 tfMobile.setText("");
@@ -79,26 +80,41 @@ public class JoinFrm extends BasicFrm {
             }
 
             // 이메일 유효성 검사
+            // 이메일 중복 검사
             if (!email.matches(emailPattern)) {
                 JOptionPane.showMessageDialog(this, "유효하지 않은 이메일 주소입니다");
                 tfEmail.requestFocus();
                 return;
             }
 
-            LocalDate birth = LocalDate.of(
-                    Integer.parseInt(birthday.substring(0,4))
-                    , Integer.parseInt(birthday.substring(5,7))
-                    , Integer.parseInt(birthday.substring(8)));
+            LocalDate birth = LocalDate.parse(birthday);
+            LocalDate currentDate = LocalDate.now();
+            try {
 
-            HashMap map = new HashMap();
+
+                if (birth.isAfter(currentDate)) {
+                    JOptionPane.showMessageDialog(this, "생일은 항상 과거입니다.");
+                    tfBirthday.setText("2023-01-01");
+                    tfBirthday.requestFocus();
+                    return;
+                }
+
+
+            } catch (Exception ex) {
+                JOptionPane.showMessageDialog(this, "생년월일 확인하세요.");
+                tfBirthday.setText("2023-01-01");
+                tfBirthday.requestFocus();
+            }
+            HashMap<String, Object> map = new HashMap<>();
             map.put("members", new Members(id, pw1, sname, mobile, email, birth));
             dispose();
             mainController.getControll("JoinRegist", map);
         });
 
-
+        // 취소 버튼의 동작 추가
         btnCancel.addActionListener(e -> {
-
+            dispose();
+            new LoginFrm().setVisible(true);
         });
     }
 

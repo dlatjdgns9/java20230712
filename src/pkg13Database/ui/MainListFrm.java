@@ -1,11 +1,13 @@
 package pkg13Database.ui;
 
+import pkg13Database.controller.MainController;
 import pkg13Database.vo.Members;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MainListFrm extends BasicFrm {
     private JTable tbl;
@@ -14,6 +16,8 @@ public class MainListFrm extends BasicFrm {
     private DefaultTableModel tableModel;
     private JPanel pnlBtn;
     private JButton btnModify, btnDelete;
+
+    private MainController mainController;
 
     public MainListFrm(ArrayList<Members> list) {
         super("회원 목록", 900, 500);
@@ -31,6 +35,7 @@ public class MainListFrm extends BasicFrm {
 
     @Override
     public void init() {
+        mainController = MainController.getInstance();
         lbTitle = new JLabel("회원 목록");
         lbTitle.setFont(new Font("맑은 고딕", Font.BOLD, 28));
         lbTitle.setHorizontalAlignment(JLabel.CENTER);
@@ -49,6 +54,7 @@ public class MainListFrm extends BasicFrm {
             JOptionPane.showMessageDialog(null, tableModel.getValueAt(row, 0));
             // 회원을 수정하는 코드를 작성하여 추가하고 수정되었으면 JTable도 새로고침 되도록 한다.
         });
+
         btnDelete = new JButton("삭제");
         btnDelete.addActionListener(e->{
             int row = tbl.getSelectedRow();
@@ -56,9 +62,14 @@ public class MainListFrm extends BasicFrm {
                 JOptionPane.showMessageDialog(null, "회원을 먼저 선택하세요");
                 return;
             }
-            tableModel.removeRow(row);
             // ui에서 지웠으면 Database에서도 같이 지워야 함.
 
+            // 선택된 행의 데이터 가져오기
+            String memberId = (String) tableModel.getValueAt(row, 2);
+            HashMap map = new HashMap();
+            map.put("id", memberId);
+            mainController.getControll("DeleteMem", map);
+            tableModel.removeRow(row);
         });
     }
 

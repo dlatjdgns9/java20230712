@@ -32,4 +32,10 @@ public class MembersService {
         result = daoMembers.getList();
         return result;
     }
+
+    public boolean deletemem(String id){
+        boolean result = daoMembers.deleteMem(id);
+
+        return result;
+    }
 }

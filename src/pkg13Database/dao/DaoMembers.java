@@ -98,7 +98,26 @@ public class DaoMembers extends DaoSet {
         return result;
     }
 
+    public boolean deleteMem(String id){
+        boolean result = false;
 
+        try {
+            conn = dbConnect();
+            String sql = "delete from members where id=? ";
+            pstmt = conn.prepareStatement(sql);
+            pstmt.setString(1, id);
+            int count = pstmt.executeUpdate();
+            if (count > 0) {
+                result = true;
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            closeDB();
+        }
+
+        return result;
+    }
 
 
 

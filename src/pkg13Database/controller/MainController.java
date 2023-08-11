@@ -36,7 +36,14 @@ public class MainController {
         } else if (request.equals("MainList")) {
             ArrayList<Members> list = membersService.getList();
             new MainListFrm(list);
-        }  else if (request.equals("Login")) {
+        }
+        else if (request.equals("DeleteMem")) {
+            String id = (String) map.get("id");
+            if(membersService.deletemem(id)){
+                JOptionPane.showMessageDialog(null, "삭제되었습니다.");
+            }
+        }
+        else if (request.equals("Login")) {
             new LoginFrm();
         } else if (request.equals("LoginCheck")) {
             String id = (String) map.get("id");
