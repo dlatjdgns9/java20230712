@@ -39,6 +39,7 @@ public class MainListFrm extends BasicFrm {
     @Override
     public void init() {
         mainController = MainController.getInstance();
+
         lbTitle = new JLabel("회원 목록");
         lbTitle.setFont(new Font("맑은 고딕", Font.BOLD, 28));
         lbTitle.setHorizontalAlignment(JLabel.CENTER);
@@ -53,7 +54,6 @@ public class MainListFrm extends BasicFrm {
         btnModify = new JButton("수정");
         btnModify.addActionListener(e->{
             int row = tbl.getSelectedRow();
-            int column = tbl.getSelectedColumn();
 
             if (row == -1) {
                 JOptionPane.showMessageDialog(null, "회원을 먼저 선택하세요");
@@ -62,27 +62,9 @@ public class MainListFrm extends BasicFrm {
             //JOptionPane.showMessageDialog(null, tableModel.getValueAt(row, 0));
             // 회원을 수정하는 코드를 작성하여 추가하고 수정되었으면 JTable도 새로고침 되도록 한다.
 
-
-            if (row != -1 && column != -1) {
-                String oldID = (String) tableModel.getValueAt(row, 2);
-
-                String newName = JOptionPane.showInputDialog(null, "수정할 이름을 입력하세요:");
-                String newID = JOptionPane.showInputDialog(null, "수정할 ID를 입력하세요:");
-                String newMobile = JOptionPane.showInputDialog(null, "수정할 전화번호를 입력하세요:");
-                String newEmail = JOptionPane.showInputDialog(null, "수정할 이메일을 입력하세요:");
-                String newReg = JOptionPane.showInputDialog(null, "수정할 등록일을 입력하세요:");
-                String newBirth = JOptionPane.showInputDialog(null, "수정할 생년월일을 입력하세요:");
-
-                // newName, newID, newMobile, newEmail, newReg, newBirth
-                LocalDate Reg = LocalDate.parse(newReg);
-                LocalDate birth = LocalDate.parse(newBirth);
-
-                HashMap<String, Object> map = new HashMap<>();
-                map.put("members", new Members(oldID, newName, newID, newMobile, newEmail, Reg, birth));
-                dispose();
-                mainController.getControll("Modify", map);
-            }
-
+            String oldID = (String) tableModel.getValueAt(row, 2);
+            dispose();
+            ModifyFrm mdf = new ModifyFrm("수정", 250, 300, oldID);
 
         });
 

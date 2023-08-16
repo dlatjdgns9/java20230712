@@ -36,26 +36,22 @@ public class MainController {
         } else if (request.equals("MainList")) {
             ArrayList<Members> list = membersService.getList();
             new MainListFrm(list);
-        }
-        else if (request.equals("DeleteMem")) {
+        } else if (request.equals("DeleteMem")) {
             String id = (String) map.get("id");
             if(membersService.deletemem(id)){
                 JOptionPane.showMessageDialog(null, "삭제되었습니다.");
             }
-        }else if (request.equals("Modify")) {
+        }
+        else if (request.equals("Modify")) {
 
             Members members = (Members) map.get("members");
-            if (membersService.Modifymem(members)) {
-                JOptionPane.showMessageDialog(null, "ID가 중복되었습니다.");
-                ArrayList<Members> list = membersService.getList();
-                new MainListFrm(list);
-                return;
-            }
+            membersService.Modifymem(members);
             JOptionPane.showMessageDialog(null, "회원이 수정완료.");
             ArrayList<Members> list = membersService.getList();
             new MainListFrm(list);
-
-        } else if (request.equals("Login")) {
+            return;
+        }
+        else if (request.equals("Login")) {
             new LoginFrm();
         } else if (request.equals("LoginCheck")) {
             String id = (String) map.get("id");

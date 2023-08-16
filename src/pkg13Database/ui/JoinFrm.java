@@ -36,7 +36,7 @@ public class JoinFrm extends BasicFrm {
     @Override
     public void init() {
         mainController = MainController.getInstance();
-        String emailPattern = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
+        String emailPattern = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+.com";
         strings = new String[] {"ID", "Password", "RePassword","Name", "Mobile", "Email", "Birthday"};
         labels = new JLabel[7];
         pnlCenter = new JPanel(new GridLayout(7, 2));
@@ -71,7 +71,6 @@ public class JoinFrm extends BasicFrm {
             }
 
             //전화번호 유효성 검사
-            //전화번호 중복 검사
             if (mobile.length() != 11 || !mobile.startsWith("010") || !mobile.matches("\\d+") ) {
                 JOptionPane.showMessageDialog(this, "휴대폰 번호를 확인하세요");
                 tfMobile.setText("");
@@ -80,7 +79,6 @@ public class JoinFrm extends BasicFrm {
             }
 
             // 이메일 유효성 검사
-            // 이메일 중복 검사
             if (!email.matches(emailPattern)) {
                 JOptionPane.showMessageDialog(this, "유효하지 않은 이메일 주소입니다");
                 tfEmail.requestFocus();

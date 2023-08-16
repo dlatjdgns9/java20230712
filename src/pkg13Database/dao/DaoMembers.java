@@ -126,15 +126,13 @@ public class DaoMembers extends DaoSet {
 
         try {
             conn = dbConnect();
-            String sql = "UPDATE members SET sname=?, id=?, mobile=?, email=?, regdate=?, birthdate=? WHERE id = ?;";
+            String sql = "UPDATE members SET pass=?, sname=?, mobile=?, email=? WHERE id = ?;";
             pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1, members.getSname());
-            pstmt.setString(2, members.getId());
+            pstmt.setString(1, members.getPass());
+            pstmt.setString(2, members.getSname());
             pstmt.setString(3, members.getMobile());
             pstmt.setString(4, members.getEmail());
-            pstmt.setDate(5, Date.valueOf(members.getRegdate()));
-            pstmt.setDate(6, Date.valueOf(members.getBirthdate()));
-            pstmt.setString(7, members.getOldID());
+            pstmt.setString(5, members.getMid());
             pstmt.executeUpdate();
 
         } catch (SQLException e) {
