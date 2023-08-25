@@ -43,7 +43,6 @@ public class MainController {
             }
         }
         else if (request.equals("Modify")) {
-
             Members members = (Members) map.get("members");
             membersService.Modifymem(members);
             JOptionPane.showMessageDialog(null, "회원이 수정완료.");

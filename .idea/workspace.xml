@@ -7,11 +7,6 @@
     <list default="true" id="f0bbb95b-1001-4337-a187-9612bc98b765" name="Changes" comment="Modify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/dao/DaoMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/service/MembersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/JoinFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/ui/MainListFrm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pkg13Database/vo/Members.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691745533400</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Modify">
+      <created>1692151126775</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1692151126775</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -50,7 +50,7 @@ public class MainListFrm extends BasicFrm {
         pnlBtn = new JPanel(new FlowLayout(FlowLayout.RIGHT));
 
 
-
+        //
         btnModify = new JButton("수정");
         btnModify.addActionListener(e->{
             int row = tbl.getSelectedRow();
